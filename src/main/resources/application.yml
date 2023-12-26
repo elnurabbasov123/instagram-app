@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: library-management-system
+  profiles:
+    include:
+      - email
+      - db
+      - common
+  servlet:
+    multipart:
+      max-file-size: 100MB
+server:
+  port: 8081

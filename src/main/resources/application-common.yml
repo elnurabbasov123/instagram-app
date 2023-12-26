@@ -1,0 +1,4 @@
+token:
+  time:
+    other: 365
+    refresh: 180
